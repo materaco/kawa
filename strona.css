@@ -17,10 +17,18 @@ header {
     padding-left: 64px;
     padding-right: 64px;
     align-items: center;
+    a img {
+    border: none;
+    transition: transform 0.3s ease; /* Płynne powiększenie */
+}
+
+a img:hover {
+    transform: scale(1.05); /* Lekkie powiększenie po najechaniu myszką */
+}
 }
 
 header > a:first-of-type {
-    margin-left: auto;
+    margin-right: auto;
     margin-right: 24px;
     font-weight: bold;
 }
@@ -273,4 +281,5 @@ footer > a:first-of-type {
 footer > strong:last-of-type {
     grid-column: 3;
     grid-row-start: 1;
+
 }
