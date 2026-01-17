@@ -156,7 +156,7 @@ main > section:nth-of-type(5) > h2 {
 
 table {
     border-collapse: collapse;
-    margin-bottom: 64px;
+    margin-bottom: 100px;
 }
 
 td {
@@ -281,4 +281,5 @@ footer > a:first-of-type {
 footer > strong:last-of-type {
     grid-column: 3;
     grid-row-start: 1;
+
 }
