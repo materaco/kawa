@@ -174,11 +174,15 @@ th {
     padding-bottom: 16px;
 }
 
-tr:not(tr:first-of-type) {
-    padding-top: 8px;
-    background-color: rgba(255, 192, 255, 0.6);
-    border-top: 1px solid #D6D3D1;
-}
+
+
+
+
+
+
+
+
+
 
 main > section:nth-of-type(6) {
     text-align: center;
@@ -285,6 +289,7 @@ footer > strong:last-of-type {
     grid-row-start: 1;
 
 }
+
 
 
 
