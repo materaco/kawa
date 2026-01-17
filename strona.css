@@ -280,9 +280,15 @@ footer > a {
     font-weight: normal;
 }
 
-footer > strong:first-of-type,
+/*footer > strong:first-of-type,
 footer > a:first-of-type {
     grid-column: 2;
+}*/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
 }
 
 /*footer > strong:last-of-type {
@@ -290,6 +296,7 @@ footer > a:first-of-type {
     grid-row-start: 1;
 
 }*/
+
 
 
 
