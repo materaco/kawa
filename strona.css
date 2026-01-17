@@ -157,7 +157,7 @@ main > section:nth-of-type(5) > h2 {
 table {
     border-collapse: collapse;
     margin-bottom: 100px;
-    width: 100%;
+    width: 45%;
 }
 
 
@@ -285,6 +285,7 @@ footer > strong:last-of-type {
     grid-row-start: 1;
 
 }
+
 
 
 
