@@ -282,6 +282,13 @@ footer > a:first-of-type {
     grid-column: 2;
 }
 
+/*footer > strong:last-of-type {
+    grid-column: 3;
+    grid-row-start: 1;
+
+}*/
+
+
 
 
 
